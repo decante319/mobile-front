@@ -1,6 +1,9 @@
 
 import React from 'react';
 import { View, Text, FlatList, StyleSheet, Button } from 'react-native';
+import items from '../mockData/marketplace.json';
+
+// Then use items in your FlatList
 
 const MOCK = [
   { id: '1', seller: 'Amina', crop: 'Maize', qty: 100, price: 40 },
