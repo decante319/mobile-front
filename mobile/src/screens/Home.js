@@ -1,6 +1,9 @@
 
 import React from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
+import weather from '../mockData/weather.json';
+
+<Text>{weather.tomorrow}</Text>
 
 export default function Home({ navigation }) {
   return (
