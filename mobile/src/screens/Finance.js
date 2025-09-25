@@ -1,6 +1,13 @@
 
 import React, { useState } from 'react';
 import { View, Text, TextInput, Button, StyleSheet } from 'react-native';
+import finance from '../mockData/finance.json';
+
+if (amount <= finance.loanLimit) {
+  setStatus(finance.messageApproved);
+} else {
+  setStatus(finance.messageRejected);
+}
 
 export default function Finance() {
   const [amount, setAmount] = useState('');
