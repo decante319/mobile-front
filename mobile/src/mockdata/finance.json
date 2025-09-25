@@ -1,0 +1,5 @@
+{
+  "loanLimit": 50000,
+  "messageApproved": "Approved (demo)",
+  "messageRejected": "Rejected (demo) — too large for micro-loan"
+}
