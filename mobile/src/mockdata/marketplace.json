@@ -1,0 +1,4 @@
+[
+  { "id": "1", "seller": "Amina", "crop": "Maize", "qty": 100, "price": 40 },
+  { "id": "2", "seller": "Joseph", "crop": "Beans", "qty": 50, "price": 80 }
+]
